@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7iZDT3/7q3ECFBFCJYmd3nxmY9Mf3pCLPZl8/uMzwBhSyrdifORxWnWxfxJlotJUFCdC3E2FQCyXO5Em18IHMA==",
+  "dgSpecHash": "Mj1HkpuWEyeF73UXYqT7I4xG8qEBd49uKGUjxGsmdsBlknI4nnOcfHmR+MOp9j9c4cbLODoSdMqkhTDyMWSZrw==",
   "success": true,
-  "projectFilePath": "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Domain/Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/mhdhussein/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/mhdhussein/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

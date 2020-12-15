@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Persistance/Persistance.csproj": {}
+    "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Persistance/Persistance.csproj": {}
   },
   "projects": {
-    "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Persistance/Persistance.csproj": {
+    "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Persistance/Persistance.csproj",
-        "projectName": "Persistance",
-        "projectPath": "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Persistance/Persistance.csproj",
+        "projectUniqueName": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj",
         "packagesPath": "/Users/mhdhussein/.nuget/packages/",
-        "outputPath": "/Users/mhdhussein/Desktop/code/dotnetcore/EventNetwork/Persistance/obj/",
+        "outputPath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mhdhussein/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -34,13 +34,69 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "NETStandard.Library": {
-              "suppressParent": "All",
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Persistance/Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Persistance/Persistance.csproj",
+        "projectName": "Persistance",
+        "projectPath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Persistance/Persistance.csproj",
+        "packagesPath": "/Users/mhdhussein/.nuget/packages/",
+        "outputPath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Persistance/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mhdhussein/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj": {
+                "projectPath": "/Users/mhdhussein/Desktop/code/dotnetcore/event-network/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -53,6 +109,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
